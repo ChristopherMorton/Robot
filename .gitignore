@@ -1,0 +1,34 @@
+## generic files to ignore
+*.tmp
+*.lock
+*.swp
+*.swo
+*.out
+*~
+
+## generated files
+tags
+.log
+
+## Build files
+build/*
+
+## Object files
+*.o
+*.lo
+*.slo
+
+## Dynamic libraries
+*.so
+
+## Static libraries
+*.a
+*.la
+*.lai
+
+## CMake extraneous files
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt 
