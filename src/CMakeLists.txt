@@ -1,4 +1,4 @@
-set(APP_FILES app.cpp savestate.cpp animation.cpp shutdown.cpp util.cpp config.cpp log.cpp pugixml.cpp)
+set(APP_FILES app.cpp game.cpp level.cpp background.cpp savestate.cpp animation.cpp shutdown.cpp util.cpp config.cpp log.cpp pugixml.cpp)
 
 add_executable(Robot ${APP_FILES})
 
